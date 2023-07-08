@@ -28,4 +28,3 @@ while (true) {
     } else {
         alert("Invalid entry")
     } }
-    
