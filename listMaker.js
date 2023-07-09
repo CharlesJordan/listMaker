@@ -20,7 +20,7 @@ while (true) {
         console.log("********");
     } else if (userInput === "delete") {
         deleteListValue = parseInt(prompt("What item index do you want to delete"));
-        toDo.splice(deleteListValue);
+        toDo.splice(deleteListValue, 1);
         console.log("List item", deleteListValue,"has been removed");
     } else if (userInput === "quit") {
         alert("You have left the list maker")
